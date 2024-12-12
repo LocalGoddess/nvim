@@ -6,7 +6,8 @@ return require("packer").startup(function(use)
 
     -- Themes
     -- First in list is the default
-
+    
+    use "rose-pine/neovim"
     use "Shadorain/shadotheme"
     use "nikolvs/vim-sunbather"
 

@@ -1,5 +1,5 @@
 function apply_theme(theme)
-    theme = theme or "shado"
+    theme = theme or "rose-pine-moon"
     vim.cmd.colorscheme(theme)
 end
 
